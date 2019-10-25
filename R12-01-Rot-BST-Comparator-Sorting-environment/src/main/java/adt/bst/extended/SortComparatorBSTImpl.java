@@ -42,7 +42,7 @@ public class SortComparatorBSTImpl<T extends Comparable<T>> extends BSTImpl<T> i
 		if (!node.isEmpty()){
 			if (node.getData().equals(element)){
 				result = node;
-			} else if (this.comparator.compare(node.getData(), element) > 0){
+			} else if (this.getComparator().compare(node.getData(), element) > 0){
 				result = searchRecursive((BSTNode<T>) node.getLeft(), element);
 			} else {
 				result = searchRecursive((BSTNode<T>) node.getRight(), element);
@@ -65,7 +65,7 @@ public class SortComparatorBSTImpl<T extends Comparable<T>> extends BSTImpl<T> i
 			node.setLeft(new BSTNode.Builder<T>().data(null).left(null).right(null).parent(node).build());
 			node.setRight(new BSTNode.Builder<T>().data(null).left(null).right(null).parent(node).build());
 		} else {
-			if (this.comparator.compare(node.getData(), element) > 0) {
+			if (this.getComparator().compare(node.getData(), element) > 0) {
 				insertRecursive((BSTNode<T>) node.getLeft(), element);
 			} else {
 				insertRecursive((BSTNode<T>) node.getRight(), element);
@@ -87,10 +87,9 @@ public class SortComparatorBSTImpl<T extends Comparable<T>> extends BSTImpl<T> i
 
 	}
 
-
 	@Override
 	public T[] reverseOrder() {
-		T[] arr = (T[]) new Comparable[this.size()];
+		T[] arr = (T[]) new Comparable[super.size()];
 
 		ReverseOrderRecursive(this.root, arr, 0);
 
@@ -99,9 +98,9 @@ public class SortComparatorBSTImpl<T extends Comparable<T>> extends BSTImpl<T> i
 
 	private int ReverseOrderRecursive(BSTNode<T> node, T[] arr, int indice) {
 		if (node != null && !node.isEmpty()){
-			indice = orderRecursive((BSTNode<T>) node.getRight(), arr, indice);
+			indice = ReverseOrderRecursive((BSTNode<T>) node.getRight(), arr, indice);
 			arr[indice++] = node.getData();
-			indice = orderRecursive((BSTNode<T>) node.getLeft(), arr, indice);
+			indice = ReverseOrderRecursive((BSTNode<T>) node.getLeft(), arr, indice);
 		}
 
 		return indice;
