@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ef4c082-277e-4ee9-9db1-589af29333a2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adt/bst/ExtendedTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/bst/BSTImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/bst/BSTImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/bst/extended/SortComparatorBSTImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/bst/extended/SortComparatorBSTImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/adt/bst/ExtendedTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/adt/bst/ExtendedTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/adt/bst/StudentBSTTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/adt/bst/StudentBSTTest.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -28,8 +21,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="34">
+              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -45,6 +38,25 @@
         <option value="$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Submissao de roteiro" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Submissao de roteiro" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-8" />
@@ -221,7 +233,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -243,7 +254,7 @@
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette" />
       <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Maven" visible="true" weight="0.32980332" />
       <window_info anchor="right" id="Capture Analysis" />
       <window_info anchor="right" id="Palette&#9;" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -261,8 +272,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/extended/SortComparatorBSTImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="34">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
         </state>
       </provider>
     </entry>

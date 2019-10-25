@@ -23,8 +23,6 @@ public class SortComparatorBSTImpl<T extends Comparable<T>> extends BSTImpl<T> i
 		this.comparator = comparator;
 	}
 
-	//TODO dá certo se eu sobreescrever apenas a parte recursiva dos métodos insert e search?
-
 	@Override
 	public BSTNode<T> search(T element) {
 		BSTNode<T> result = new BSTNode<>();
