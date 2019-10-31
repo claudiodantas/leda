@@ -82,8 +82,28 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 	 * (comparados usando o comparator) elementos na parte de cima da heap.
 	 */
 	private void heapify(int position) {
-		// TODO Implement htis method.
-		throw new UnsupportedOperationException("Not implemented yet!");
+		int left = left(position);
+		int right = right(position);
+
+		int largest;
+
+		if (left <= size() && this.heap[left].compareTo(this.heap[right]) > 0){ //TODO
+			largest = left;
+		} else {
+			largest = right;
+		}
+
+		if (right <= size() && this.heap[right].compareTo(this.heap[largest]) > 0){ //TODO
+			largest = right;
+		}
+
+		if (largest != position){
+			T aux = this.heap[position];
+			this.heap[position] = this.heap[largest];
+			this.heap[largest] = aux;
+
+			heapify(largest);
+		}
 	}
 
 	@Override
@@ -93,14 +113,15 @@ public class HeapImpl<T extends Comparable<T>> implements Heap<T> {
 			heap = Arrays.copyOf(heap, heap.length + INCREASING_FACTOR);
 		}
 		// /////////////////////////////////////////////////////////////////
-		// TODO Implemente a insercao na heap aqui.
-		throw new UnsupportedOperationException("Not implemented yet!");
+
+
 	}
 
 	@Override
 	public void buildHeap(T[] array) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		for (int i = array.length/2; i >= 0; i--){
+			heapify(i);
+		}
 	}
 
 	@Override
