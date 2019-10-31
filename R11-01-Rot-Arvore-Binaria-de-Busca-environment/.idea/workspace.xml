@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e9b2da44-476b-4e59-8962-9b7932d9ad52" name="Default Changelist" comment="" />
+    <list default="true" id="e9b2da44-476b-4e59-8962-9b7932d9ad52" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +29,58 @@
     </session>
   </component>
   <component name="FileEditorManager">
+<<<<<<< HEAD
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="187" column="31" lean-forward="true" selection-start-line="187" selection-start-column="31" selection-end-line="187" selection-end-column="31" />
+              <folding>
+                <element signature="e#155#156#0" expanded="true" />
+                <element signature="e#185#186#0" expanded="true" />
+                <element signature="e#217#218#0" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#280#281#0" expanded="true" />
+                <element signature="e#308#309#0" expanded="true" />
+                <element signature="e#343#344#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#6688#6689#0" expanded="true" />
+                <element signature="e#6712#6713#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/BTNode.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="246">
+              <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
+              <folding>
+                <element signature="e#1212#1213#0" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="529">
+              <caret line="150" column="31" lean-forward="true" selection-start-line="150" selection-start-column="31" selection-end-line="150" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+=======
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+>>>>>>> e92ebc8c434fa19239f82f75080ca2d7ba503c63
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -68,9 +122,12 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
       <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+>>>>>>> e92ebc8c434fa19239f82f75080ca2d7ba503c63
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -146,10 +203,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< HEAD
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+=======
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> e92ebc8c434fa19239f82f75080ca2d7ba503c63
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -231,9 +294,15 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21406959" />
+=======
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13558385" />
+>>>>>>> e92ebc8c434fa19239f82f75080ca2d7ba503c63
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -251,12 +320,19 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" />
+<<<<<<< HEAD
+=======
       <window_info anchor="right" id="Maven Projects" />
+>>>>>>> e92ebc8c434fa19239f82f75080ca2d7ba503c63
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
+<<<<<<< HEAD
+      <window_info anchor="right" id="Maven" order="4" weight="0.32980332" />
+=======
       <window_info active="true" anchor="right" id="Maven" order="4" visible="true" weight="0.3299595" />
+>>>>>>> e92ebc8c434fa19239f82f75080ca2d7ba503c63
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
@@ -273,13 +349,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="150" column="31" lean-forward="true" selection-start-line="150" selection-start-column="31" selection-end-line="150" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/adt/bt/BTNode.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="908">
+        <state relative-caret-position="246">
           <caret line="62" column="21" selection-start-line="62" selection-start-column="21" selection-end-line="62" selection-end-column="21" />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/src/main/java/adt/bst/BSTImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="187" column="31" lean-forward="true" selection-start-line="187" selection-start-column="31" selection-end-line="187" selection-end-column="31" />
+=======
     <entry file="file://$PROJECT_DIR$/src/test/java/adt/bst/StudentBSTTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1605">
@@ -298,6 +388,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
+>>>>>>> e92ebc8c434fa19239f82f75080ca2d7ba503c63
           <folding>
             <element signature="e#155#156#0" expanded="true" />
             <element signature="e#185#186#0" expanded="true" />
